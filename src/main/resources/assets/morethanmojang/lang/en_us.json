@@ -1,0 +1,18 @@
+{
+  "itemgroup.example_items": "Example Group",
+
+  "item.morethanmojang.rough_amber": "Rough Amber",
+  "item.morethanmojang.rough_topaz": "Rough Topaz",
+  "item.morethanmojang.raw_jade": "Raw Jade",
+
+  "item.morethanmojang.bismuth_fracture": "Bismuth Fracture",
+  "item.morethanmojang.polished_amber": "Polished Amber",
+  "item.morethanmojang.polished_topaz": "Polished Topaz",
+  "item.morethanmojang.jade_crystal": "Jade Crystal",
+  "item.morethanmojang.refined_enderite": "Refined Enderite",
+  "item.morethanmojang.enderite_ingot_soft": "Soft Enderite Ingot",
+  "item.morethanmojang.enderite_ingot_hard": "Hard Enderite Ingot",
+
+  "block.morethanmojang.enderite_ore": "Enderite Ore",
+  "block.morethanmojang.bismuth_ore": "Bismuth Ore"
+}

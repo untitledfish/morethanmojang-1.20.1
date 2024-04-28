@@ -1,5 +1,8 @@
 package bobble.morethanmojang;
 
+import bobble.morethanmojang.blocks.ModBlocks;
+import bobble.morethanmojang.items.ModItemGroups;
+import bobble.morethanmojang.items.ModItems;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -12,5 +15,7 @@ public class MoreThanMojang implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		LOGGER.info("Starting More Than Mojang");
+		ModItemGroups.registerItemGroups();
+		ModItems.registerModItems();
 	}
 }
