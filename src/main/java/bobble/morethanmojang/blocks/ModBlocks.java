@@ -13,9 +13,21 @@ import net.minecraft.util.Identifier;
 public class ModBlocks {
 
     public static final Block ENDERITE_ORE = registerBlock("enderite_ore",
-            new Block(FabricBlockSettings.copyOf(Blocks.IRON_ORE)));
+            new Block(FabricBlockSettings.copyOf(Blocks.END_STONE)));
     public static final Block BISMUTH_ORE = registerBlock("bismuth_ore",
             new Block(FabricBlockSettings.copyOf(Blocks.IRON_ORE)));
+    public static final Block BLOCK_ENDERITE_H = registerBlock("hard_enderite_block",
+            new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
+    public static final Block BLOCK_ENDERITE_S = registerBlock("soft_enderite_block",
+            new Block(FabricBlockSettings.copyOf(Blocks.LAPIS_BLOCK)));
+    public static final Block BLOCK_BISMUTH = registerBlock("bismuth_block",
+            new Block(FabricBlockSettings.copyOf(Blocks.DIAMOND_BLOCK)));
+    public static final Block BLOCK_AMBER = registerBlock("amber_block",
+            new Block(FabricBlockSettings.copyOf(Blocks.DIAMOND_BLOCK)));
+    public static final Block BLOCK_TOPAZ = registerBlock("topaz_block",
+            new Block(FabricBlockSettings.copyOf(Blocks.GOLD_BLOCK)));
+    public static final Block BLOCK_JADE = registerBlock("jade_block",
+            new Block(FabricBlockSettings.copyOf(Blocks.EMERALD_BLOCK)));
 
     private static Block registerBlock(String name, Block block){
         registerBlockItem(name, block);

@@ -19,9 +19,12 @@ public class ModItems {
     public static final Item POLISHED_TOPAZ = registerItems("polished_topaz", new Item(new FabricItemSettings()));
     public static final Item RAW_JADE = registerItems("raw_jade", new Item(new FabricItemSettings()));
     public static final Item JADE_CRYSTAL = registerItems("jade_crystal", new Item(new FabricItemSettings()));
+    public static final Item ENDERITE_FRAGMENT = registerItems("enderite_fragment", new Item(new FabricItemSettings()));
     public static final Item REFINED_ENDERITE = registerItems("refined_enderite", new Item(new FabricItemSettings()));
     public static final Item SOFT_ENDERITE_INGOT = registerItems("enderite_ingot_soft", new Item(new FabricItemSettings()));
     public static final Item HARD_ENDERITE_INGOT = registerItems("enderite_ingot_hard", new Item(new FabricItemSettings()));
+    public static final Item BISMUTH_DYE = registerItems("bismuth_dye", new Item(new FabricItemSettings()));
+    public static final Item ENDERITE_DYE = registerItems("enderite_dye", new Item(new FabricItemSettings()));
 
     public static final Item BISMUTH_PICKAXE = registerItems("bismuth_pickaxe", new PickaxeItem(ModToolMaterial.BISMUTH,
             4, 3f, new FabricItemSettings()));
@@ -58,6 +61,11 @@ public class ModItems {
         entries.add(BISMUTH_HOE);
     }
 
+    private static void addDyesToCMenu(FabricItemGroupEntries entries) {
+        entries.add(BISMUTH_DYE);
+        entries.add(ENDERITE_DYE);
+    }
+
     private static Item registerItems(String name, Item item) {
         return Registry.register(Registries.ITEM, new Identifier(MoreThanMojang.MOD_ID, name), item);
     }
@@ -65,6 +73,7 @@ public class ModItems {
     public static void registerModItems() {
         MoreThanMojang.LOGGER.info("Registering Mod Items for " + MoreThanMojang.MOD_ID);
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(ModItems::addOresToCMenu);
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(ModItems::addDyesToCMenu);
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.TOOLS).register(ModItems::addToolsToCMenu);
     }
 }

@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 400,
+  "experience": 2.5,
+  "group": "enderite_blasting",
+  "ingredient": {
+    "item": "morethanmojang:enderite_ore"
+  },
+  "result": "morethanmojang:enderite_dye"
+}

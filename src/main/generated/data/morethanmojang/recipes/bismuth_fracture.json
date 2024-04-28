@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "morethanmojang:bismuth_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "morethanmojang:bismuth_fracture"
+  }
+}

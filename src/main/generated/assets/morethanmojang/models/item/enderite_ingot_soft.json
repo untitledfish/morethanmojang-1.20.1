@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "morethanmojang:item/enderite_ingot_soft"
+  }
+}

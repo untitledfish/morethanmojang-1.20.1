@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "morethanmojang:block/soft_enderite_block"
+  }
+}

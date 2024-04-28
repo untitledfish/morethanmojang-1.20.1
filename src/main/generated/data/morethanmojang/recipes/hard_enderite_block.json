@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "H": {
+      "item": "morethanmojang:enderite_ingot_hard"
+    },
+    "N": {
+      "item": "minecraft:netherite_scrap"
+    }
+  },
+  "pattern": [
+    "HHH",
+    "HNH",
+    "HHH"
+  ],
+  "result": {
+    "item": "morethanmojang:hard_enderite_block"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 250,
+  "experience": 1.4,
+  "group": "bismuth_blasting",
+  "ingredient": {
+    "item": "morethanmojang:bismuth_ore"
+  },
+  "result": "morethanmojang:bismuth_dye"
+}

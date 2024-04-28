@@ -9,9 +9,13 @@
   "item.morethanmojang.polished_amber": "Polished Amber",
   "item.morethanmojang.polished_topaz": "Polished Topaz",
   "item.morethanmojang.jade_crystal": "Jade Crystal",
+  "item.morethanmojang.enderite_fragment": "Enderite Fragment",
   "item.morethanmojang.refined_enderite": "Refined Enderite",
   "item.morethanmojang.enderite_ingot_soft": "Soft Enderite Ingot",
   "item.morethanmojang.enderite_ingot_hard": "Hard Enderite Ingot",
+
+  "item.morethanmojang.bismuth_dye": "Bismuth Dye",
+  "item.morethanmojang.enderite_dye": "Enderite Dye",
 
   "item.morethanmojang.bismuth_pickaxe": "Bismuth Pickaxe",
   "item.morethanmojang.bismuth_axe": "Bismuth Axe",
@@ -21,5 +25,11 @@
   "item.morethanmojang.bismuth_hoe": "Bismuth Hoe",
 
   "block.morethanmojang.enderite_ore": "Enderite Ore",
-  "block.morethanmojang.bismuth_ore": "Bismuth Ore"
+  "block.morethanmojang.bismuth_ore": "Bismuth Ore",
+  "block.morethanmojang.soft_enderite_block": "Block of Soft Enderite",
+  "block.morethanmojang.hard_enderite_block": "Block of Hard Enderite",
+  "block.morethanmojang.bismuth_block": "Block of Bismuth",
+  "block.morethanmojang.amber_block": "Block of Amber",
+  "block.morethanmojang.topaz_block": "Block of Topaz",
+  "block.morethanmojang.jade_block": "Block of Jade"
 }

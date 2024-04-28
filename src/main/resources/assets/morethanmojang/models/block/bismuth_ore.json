@@ -1,6 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "morethanmojang:block/bismuth_ore"
-  }
-}

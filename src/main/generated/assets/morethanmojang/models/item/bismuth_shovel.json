@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "morethanmojang:item/bismuth_shovel"
+  }
+}
