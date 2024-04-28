@@ -17,5 +17,6 @@ public class MoreThanMojang implements ModInitializer {
 		LOGGER.info("Starting More Than Mojang");
 		ModItemGroups.registerItemGroups();
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }

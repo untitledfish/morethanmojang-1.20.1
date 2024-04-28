@@ -16,6 +16,7 @@ public class ModItemGroups {
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.example_items"))
                     .icon(() -> new ItemStack(ModItems.BISMUTH_FRACTURE)).entries((displayContext, entries)
                             -> {
+                        entries.add(ModBlocks.BISMUTH_ORE);
                         entries.add(ModItems.BISMUTH_FRACTURE);
                         entries.add(ModItems.ROUGH_AMBER);
                         entries.add(ModItems.POLISHED_AMBER);
@@ -23,6 +24,7 @@ public class ModItemGroups {
                         entries.add(ModItems.POLISHED_TOPAZ);
                         entries.add(ModItems.RAW_JADE);
                         entries.add(ModItems.JADE_CRYSTAL);
+                        entries.add(ModBlocks.ENDERITE_ORE);
                         entries.add(ModItems.REFINED_ENDERITE);
                         entries.add(ModItems.SOFT_ENDERITE_INGOT);
                         entries.add(ModItems.HARD_ENDERITE_INGOT);
