@@ -12,7 +12,7 @@ import net.minecraft.util.Identifier;
 
 public class ModItemGroups {
 
-    public static final ItemGroup EXAMPLE_ITEMS = Registry.register(Registries.ITEM_GROUP, new Identifier(MoreThanMojang.MOD_ID, "outfits"),
+    public static final ItemGroup EXAMPLE_ITEMS = Registry.register(Registries.ITEM_GROUP, new Identifier(MoreThanMojang.MOD_ID, "items"),
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.example_items"))
                     .icon(() -> new ItemStack(ModItems.BISMUTH_FRACTURE)).entries((displayContext, entries)
                             -> {
