@@ -13,6 +13,13 @@
   "item.morethanmojang.enderite_ingot_soft": "Soft Enderite Ingot",
   "item.morethanmojang.enderite_ingot_hard": "Hard Enderite Ingot",
 
+  "item.morethanmojang.bismuth_pickaxe": "Bismuth Pickaxe",
+  "item.morethanmojang.bismuth_axe": "Bismuth Axe",
+  "item.morethanmojang.bismuth_sword": "Bismuth Sword",
+  "item.morethanmojang.bismuth_longsword": "Bismuth Longsword",
+  "item.morethanmojang.bismuth_shovel": "Bismuth Shovel",
+  "item.morethanmojang.bismuth_hoe": "Bismuth Hoe",
+
   "block.morethanmojang.enderite_ore": "Enderite Ore",
   "block.morethanmojang.bismuth_ore": "Bismuth Ore"
 }

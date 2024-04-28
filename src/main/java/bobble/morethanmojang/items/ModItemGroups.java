@@ -28,6 +28,13 @@ public class ModItemGroups {
                         entries.add(ModItems.REFINED_ENDERITE);
                         entries.add(ModItems.SOFT_ENDERITE_INGOT);
                         entries.add(ModItems.HARD_ENDERITE_INGOT);
+
+                        entries.add(ModItems.BISMUTH_SWORD);
+                        entries.add(ModItems.BISMUTH_LONGSWORD);
+                        entries.add(ModItems.BISMUTH_PICKAXE);
+                        entries.add(ModItems.BISMUTH_AXE);
+                        entries.add(ModItems.BISMUTH_SHOVEL);
+                        entries.add(ModItems.BISMUTH_HOE);
                     }).build());
 
     public static void registerItemGroups(){
