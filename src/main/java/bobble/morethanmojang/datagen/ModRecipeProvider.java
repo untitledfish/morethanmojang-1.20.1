@@ -25,10 +25,6 @@ public class ModRecipeProvider extends FabricRecipeProvider {
 
     @Override
     public void generate(Consumer<RecipeJsonProvider> exporter) {
-        offerBlasting(exporter, BISMUTH_ORES, RecipeCategory.MISC, ModItems.BISMUTH_DYE,
-                1.4f, 250, "bismuth_blasting");
-        offerBlasting(exporter, ENDERITE_ORES, RecipeCategory.MISC, ModItems.ENDERITE_DYE,
-                2.5f, 400, "enderite_blasting");
 
         offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, ModItems.POLISHED_AMBER,
                 RecipeCategory.DECORATIONS, ModBlocks.BLOCK_AMBER);

@@ -39,6 +39,15 @@ public class ModItems {
     public static final Item BISMUTH_LONGSWORD = registerItems("bismuth_longsword", new SwordItem(ModToolMaterial.BISMUTH,
             4, 3f, new FabricItemSettings()));
 
+    public static final Item BISMUTH_HELMET = registerItems("bismuth_helmet", new ArmorItem(ModArmorMaterials.BISMUTH,
+            ModArmorItem.Type.HELMET, new FabricItemSettings()));
+    public static final Item BISMUTH_CHESTPLATE = registerItems("bismuth_chestplate", new ArmorItem(ModArmorMaterials.BISMUTH,
+            ArmorItem.Type.CHESTPLATE, new FabricItemSettings()));
+    public static final Item BISMUTH_LEGGINGS = registerItems("bismuth_leggings", new ArmorItem(ModArmorMaterials.BISMUTH,
+            ArmorItem.Type.LEGGINGS, new FabricItemSettings()));
+    public static final Item BISMUTH_BOOTS = registerItems("bismuth_boots", new ArmorItem(ModArmorMaterials.BISMUTH,
+            ArmorItem.Type.BOOTS, new FabricItemSettings()));
+
     private static void addOresToCMenu(FabricItemGroupEntries entries){
         entries.add(BISMUTH_FRACTURE);
         entries.add(ROUGH_AMBER);
@@ -66,6 +75,13 @@ public class ModItems {
         entries.add(ENDERITE_DYE);
     }
 
+    private static void addArmorsToCMenu(FabricItemGroupEntries entries) {
+        entries.add(BISMUTH_HELMET);
+        entries.add(BISMUTH_CHESTPLATE);
+        entries.add(BISMUTH_LEGGINGS);
+        entries.add(BISMUTH_BOOTS);
+    }
+
     private static Item registerItems(String name, Item item) {
         return Registry.register(Registries.ITEM, new Identifier(MoreThanMojang.MOD_ID, name), item);
     }
@@ -75,5 +91,6 @@ public class ModItems {
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(ModItems::addOresToCMenu);
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(ModItems::addDyesToCMenu);
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.TOOLS).register(ModItems::addToolsToCMenu);
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.COMBAT).register(ModItems::addArmorsToCMenu);
     }
 }
